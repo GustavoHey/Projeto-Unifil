@@ -1,1 +1,47 @@
+html {
+    background-color: #d9d9d9;
+}
 
+img {
+    width: 300px;
+}
+
+.inicio {
+    font-family: "Krona One", sans-serif;
+}
+
+.home {
+    font-size: 30px;
+    padding: 10%;
+    text-align: center;
+}
+
+blue {
+    font-size: 90px;
+    color: azure;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #0048ff;
+}
+
+.btn{
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    margin-left: 40%;
+    max-width: 20%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 16px;
+    background-color: rgb(17, 17, 17);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.end {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
