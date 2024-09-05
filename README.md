@@ -17,7 +17,7 @@ O objetivo principal do desafio é criar um aplicativo que ensine inglês para o
 
 ## Contato
 
-Para mais informações, entre em contato com [[Email](gustavoheri.contato@gmail.com)] ou [[Links](https://gustavohey.github.io/perfil/)].
+Para mais informações, entre em contato com [gustavoheri.contato@gmail.com] ou [[Links](https://gustavohey.github.io/perfil/)].
 
 ## Experiência
 
