@@ -1,5 +1,7 @@
 # Projeto de APP; UniFil - Centro Universitário Filadélfia.
 
+## Gustavo Henrique Cirillo
+
 ## Descrição
 
 Iniciado em 21/08, este é um projeto desenvolvido na UniFil (Centro Universitário Filadélfia) como parte do curso presencial de Pensamento Computacional. O projeto foi projetado inicialmente utilizando o Figma e, em seguida, implementado na prática.
