@@ -45,3 +45,13 @@ a {
     font-family: "Inter", sans-serif;
     text-align: center;
 }
+
+/* DEVE FICAR NO FINAL DO CSS, AQUI TEM COR DA SELEÇÃO DE TEXTO, PRA CHROMIUM E MOZILLA*/
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #0048ff;
+}
+
+::selection {
+  color: white;
+  background: #0048ff;
