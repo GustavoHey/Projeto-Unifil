@@ -1,8 +1,8 @@
-# Projeto de APP UniFil - Centro Universitário Filadélfia
+# Projeto de APP para o publico infantil desafio proposto no Curso presencial de Pensamento Computacional na UniFil - Centro Universitário Filadélfia.
 
 ## Descrição
 
-Iniciado em 21/08, este é um projeto desenvolvido no Centro Universitário Filadélfia (UniFil) como parte do curso presencial de Pensamento Computacional. O projeto foi projetado inicialmente utilizando o Figma e, em seguida, implementado na prática.
+Iniciado em 21/08, este é um projeto desenvolvido na UniFil (Centro Universitário Filadélfia) como parte do curso presencial de Pensamento Computacional. O projeto foi projetado inicialmente utilizando o Figma e, em seguida, implementado na prática.
 
 ## Desafio
 
@@ -10,23 +10,13 @@ O objetivo principal do desafio é criar um aplicativo que ensine inglês para o
 
 ## Tecnologias Utilizadas
 
-- **Figma**: Para o design inicial do aplicativo.
-- **[Tecnologias de desenvolvimento]**: (adicione aqui as tecnologias usadas para a implementação do app)
-
-## Como Começar
-
-1. Clone o repositório: `git clone <url-do-repositório>`
-2. Navegue até o diretório do projeto: `cd <nome-do-diretório>`
-3. [Instruções adicionais para configuração e execução]
-
-## Contribuições
-
-Sinta-se à vontade para contribuir com o projeto! Para sugestões e melhorias, abra uma *issue* ou envie um *pull request*.
+- **Figma**: Para a projeção e o design inicial do aplicativo.
+- **[Tecnologias de desenvolvimento]**: HTML, CSS, JavaScript.
 
 ## Contato
 
-Para mais informações, entre em contato com [seu e-mail] ou [outra forma de contato].
+Para mais informações, entre em contato com [[Email](gustavoheri.contato@gmail.com)] ou [[Links](https://gustavohey.github.io/perfil/)].
 
-## Licença
+## Experiência
 
-Este projeto está licenciado sob a [Licença XYZ](link-da-licença).
+Esse foi um dos projetos que iniciaram o ensinamento para colocar em prática o JavaScript em página HTML, que futuramente servirá como uma experiência e ensinamentos incríveis proporcionados pela UniFil.
