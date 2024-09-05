@@ -1,4 +1,4 @@
-# Projeto de APP para o publico infantil desafio proposto no Curso presencial de Pensamento Computacional na UniFil - Centro Universitário Filadélfia.
+# Projeto de APP; UniFil - Centro Universitário Filadélfia.
 
 ## Descrição
 
