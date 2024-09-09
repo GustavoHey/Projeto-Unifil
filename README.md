@@ -2,7 +2,7 @@
 
 ## Gustavo Henrique Cirillo
 
-![PROCESSO](https://i.imgur.com/Fme5tpX.jpeg)
+<img src="https://i.imgur.com/Fme5tpX.jpeg" alt="PROCESSO" style="border-radius: 10px;" />
 
 ## Descrição
 
