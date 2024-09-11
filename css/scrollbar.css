@@ -1,0 +1,25 @@
+/* Aplica o estilo da scrollbar ao navegador WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra vertical */
+    height: 10px; /* Altura da barra horizontal */
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Cor do fundo da barra de rolagem */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555; /* Cor da parte que você arrasta */
+    border-radius: 10px; /* Bordas arredondadas da parte de arrastar */
+    border: 2px solid #1e1e1e; /* Espessura e cor do contorno */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* Cor da parte de arrastar ao passar o mouse */
+}
+
+/* Para navegadores com suporte a scrollbar-gutter */
+html {
+    scrollbar-gutter: stable; /* Garante que a barra de rolagem não afete o layout */
+}

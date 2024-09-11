@@ -46,12 +46,99 @@ a {
     text-align: center;
 }
 
-/* DEVE FICAR NO FINAL DO CSS, AQUI TEM COR DA SELEÇÃO DE TEXTO, PRA CHROMIUM E MOZILLA*/
-::-moz-selection { /* Code for Firefox */
-  color: white;
-  background: #0048ff;
+.nivhead {
+    margin: auto;
+    align-items: center;
+    text-align: center;
 }
 
-::selection {
-  color: white;
-  background: #0048ff;
+.barraprog {
+    color: aliceblue;
+    margin: auto;
+    border-radius: 15px;
+    min-width: 60%;
+    max-width: 65%;
+    background-color: black;
+}
+
+.niveis {
+    align-items: center;
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.level {
+    margin: 10px;
+    padding: 20px;
+    min-height: 140px;
+    min-width: 80%;
+    max-width: 500px;
+    position: relative;
+    border-radius: 40px;
+    background-image: url("../img/cidade.png");
+    background-color: rgb(16, 16, 16);
+    background-size: cover;
+    background-position: center;
+}
+
+.levelbnt {
+    margin: 10px;
+    padding: 10px 20px;
+    max-width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0048ff;
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+.levelbntblock {
+    margin: 10px;
+    padding: 10px 20px;
+    max-width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(148, 148, 148);
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 768px) {
+    .level {
+        min-width: 90%;
+    }
+
+    .levelbnt, .levelbntblock {
+        padding: 10px 15px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .level {
+        min-width: 100%;
+        padding: 15px;
+    }
+
+    .levelbnt, .levelbntblock {
+        padding: 8px 10px;
+    }
+}
+
+
+
+/* DEVE FICAR NO FINAL DO CSS, AQUI TEM COR DA SELEÇÃO DE TEXTO, PRA CHROMIUM E MOZILLA*/
+::-moz-selection { /* Firefox */
+    color: white;
+    background: #0048ff;
+  }
+  
+  ::selection {
+    color: white;
+    background: #0048ff;
+  }
