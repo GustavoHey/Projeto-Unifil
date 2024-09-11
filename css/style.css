@@ -64,18 +64,21 @@ a {
 .niveis {
     align-items: center;
     margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(2, 8fr);
+    gap: 15%;
+    column-gap: 1%;
     justify-items: center;
 }
 
 .level {
     margin: 10px;
     padding: 20px;
-    min-height: 140px;
-    min-width: 80%;
-    max-width: 500px;
+    min-height: 80%;
+    min-width: 40%;
+    max-width: 40%;
     position: relative;
     border-radius: 40px;
     background-image: url("../img/cidade.png");
@@ -108,6 +111,77 @@ a {
     font-family: "Inter", sans-serif;
 }
 
+.containerr {
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 8fr);
+    gap: 15%;
+    column-gap: 1%;
+    justify-items: center;
+}
+
+.lingua {
+    margin: 10px;
+    padding: 20px;
+    min-height: 80%;
+    min-width: 40%;
+    max-width: 40%;
+    position: relative;
+    border-radius: 40px;
+    background-color: rgb(16, 16, 16);
+}
+
+#blue {
+    font-size: 160%;
+    font-weight: 800;
+    margin-top: 20%;
+    color: #0048ff;
+}
+
+#grey {
+    font-size: 140%;
+    font-weight: 800;
+    margin-top: 20%;
+    color: #818181;
+}
+
+.desafio {
+    display: grid;
+}
+
+.changbnt {
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0048ff;
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    border-radius: 18px;
+}
+
+#icon {
+    position: absolute;
+    width: 40px;
+    margin-left: 80%;
+    margin-top: 1%;
+}
+
+#resposta1 {
+    font-family: "Krona One", sans-serif;
+    font-size: medium;
+}
+
+#pergunta {
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .level {
         min-width: 90%;
@@ -129,8 +203,6 @@ a {
         padding: 8px 10px;
     }
 }
-
-
 
 /* DEVE FICAR NO FINAL DO CSS, AQUI TEM COR DA SELEÇÃO DE TEXTO, PRA CHROMIUM E MOZILLA*/
 ::-moz-selection { /* Firefox */
