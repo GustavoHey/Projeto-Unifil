@@ -84,10 +84,10 @@ function verificarResposta(indice) {
     if (perguntaAtual < perguntas.length) {
         mostrarPergunta();
     } else {
-        alert("Quiz completed!");
+        alert("Level 1 completed!");
         setTimeout(() => {
             window.location.href = "../paginas/níveis.html"; // pula de pagina
-        }, 5000); // 2200 milissegundos = tempo pra pular de pagina
+        }, 2200); // 2200 milissegundos = tempo pra pular de pagina
     }
 }
 
