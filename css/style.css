@@ -58,7 +58,32 @@ a {
     border-radius: 15px;
     min-width: 60%;
     max-width: 65%;
+    height: 30px;
     background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.barraprog p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    z-index: 1;
+    margin: 0;
+    pointer-events: none;
+}
+
+.progress-overlay {
+    background-color: #0048ff;
+    height: 100%;
+    width: 0; /* Inicia com a largura em 0 */
+    border-radius: 15px;
+    transition: width 0.4s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
 
 .niveis {
@@ -173,7 +198,7 @@ a {
     margin-top: 1%;
 }
 
-#resposta1 {
+#resposta1, #resposta2, #resposta3, #resposta4 {
     font-family: "Krona One", sans-serif;
     font-size: medium;
 }
