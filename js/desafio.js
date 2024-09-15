@@ -87,7 +87,7 @@ function verificarResposta(indice) {
         alert("Level 1 completed!");
         setTimeout(() => {
             window.location.href = "../paginas/níveis.html"; // pula de pagina
-        }, 2200); // 2200 milissegundos = tempo pra pular de pagina
+        }, 1200); // 1200 milissegundos = tempo pra pular de pagina
     }
 }
 
