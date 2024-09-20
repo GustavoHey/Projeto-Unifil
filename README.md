@@ -1,6 +1,6 @@
 # Projeto de APP, QUIZIEZ; UniFil - Centro Universitário Filadélfia.
 
-## Gustavo Henrique Cirillo
+## Gustavo Henrique C.
 
 ![RESULTADO INICIAL](https://i.imgur.com/Fme5tpX.jpeg)
 
